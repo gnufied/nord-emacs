@@ -509,6 +509,11 @@
    `(diff-hl-change ((,class (:background ,nord13))))
    `(diff-hl-insert ((,class (:background ,nord14))))
    `(diff-hl-delete ((,class (:background ,nord11))))
+
+   ;; > smerge
+   `(smerge-refined-added ((,class (:foreground ,nord14))))
+   `(smerge-refined-changed ((,class (:foreground ,nord13))))
+   `(smerge-refined-removed ((,class (:foreground ,nord11))))
    
     ;; > Evil
     `(evil-ex-info ((,class (:foreground ,nord8))))
